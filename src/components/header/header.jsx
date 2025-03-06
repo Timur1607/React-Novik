@@ -1,5 +1,6 @@
 import './Header.css'
 import HeadTitle from '../headerNav/nav.jsx'
+import NovikPicture from '../../img/Denis-Novik.webp'
 export default function header(){
 
     return(
@@ -37,7 +38,7 @@ export default function header(){
                     </div>
                     <picture>
                         <source srcSet="src/img/Denis.webp" media="(max-width: 391px)" />
-                        <img  className="head__img" src="src/img/Denis-Novik.webp" alt="Денис Новик" />
+                        <img  className="head__img" src={NovikPicture} alt="Денис Новик" />
                     </picture>
                     {/* <!-- <img class="head__img" src="./img/Denis.svg" alt="Denis Novik">   --> */}
                 </div>

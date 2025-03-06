@@ -1,0 +1,70 @@
+.portfolio{
+    /* padding: 112.93px 253px 96.07px 252px; */
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    padding-top: 81px;
+    padding-bottom: 81px;
+}
+
+.portfolio__homepage__img{
+    /* max-width: 940px; */
+    width: 100%;
+    /* height: 512px; */
+/* border: 1px, solid black; */
+}
+.portfolio__homepage__text{
+    text-align: center;
+    margin-top: 42.83px;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.portfolio__h2{
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+}
+.portfolio__articles{
+    /* border: 1px solid black; */
+    margin-top: 47px;
+    /* width: 940px; */
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio__reebok__img{
+    width: 940px;
+    height: 524px;
+}
+
+.portfolio__camera__img{
+    width: 940px;
+    height: 524px;
+}
+
+.portfolio__reebok__text{
+    margin-top: 43.81px;
+    text-align: center;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.portfolio__camera__text{
+    margin-top: 43.81px;
+    text-align: center;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.portfolio__articles__last{
+    width: 940px;
+}

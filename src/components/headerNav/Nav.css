@@ -1,0 +1,30 @@
+.head__title{
+    
+    display:flex;
+    justify-content: space-between;
+    max-width: 940px; /* например, максимальная ширина контейнера */
+    width: 100%;
+    font-family: "Gilroy-bold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #828282;
+    /* gap: 50px; */
+    padding-top: 25px;
+}
+
+.head__text{
+    margin: 0 ;
+    transition: 0.5s;
+    color: #828282;
+    font-family: "Gilroy-bold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.head__text_active{
+    color: black;
+}
+.head__text:hover{
+    color: black;
+}

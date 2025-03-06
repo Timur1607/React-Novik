@@ -1,0 +1,74 @@
+.skills{
+    /* padding: 91px 253px 110.06px 252px; */
+    margin: 0 auto;
+}
+
+.skills__title{
+    text-align: center;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    line-height: normal;
+    color: black;
+    padding-top: 83px;
+}
+
+.skills__description{
+    text-align: center;
+    margin-top: 69.1px;
+    margin-bottom: 83.49px;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.skills__programs{
+    /* border: 1px, solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 98px;
+}
+.skills__program{
+    /* border: 1px, solid black; */
+    width: 166px;
+    height: 206px;
+    margin: 0;
+    margin-top: 81px;
+
+}
+
+.program__picture{
+    height: 88.413px;
+    display: block;
+    margin: 0 auto;
+}
+
+.program__stars{
+    width: 166.461px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px, solid black; */
+
+}
+
+.program__name{
+    /* border: 1px, solid black; */
+    width: 89.073px;
+    height: 88.413px;
+    /* margin: 19.07px 9.74px 42.08px 9.04px; */
+}
+
+.program__name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 19.07px;
+    font-family: "Gilroy-bold", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #828282;
+}

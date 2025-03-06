@@ -1,0 +1,72 @@
+@font-face{
+    font-family: "Gilroy-bold";
+    src: url(./font/bold/Gilroy-Bold.eot),
+     url(./font/bold/Gilroy-Bold.otf),
+     url(./font/bold/Gilroy-Bold.ttf),
+     url(./font/bold/Gilroy-Bold.woff),
+     url(./font/bold/Gilroy-Bold.woff2);
+}
+
+@font-face{
+    font-family: "Gilroy-medium";
+    src: url(./font/medium/Gilroy-Medium.eot),
+     url(./font/medium/Gilroy-Medium.otf),
+     url(./font/medium/Gilroy-Medium.ttf),
+     url(./font/medium/Gilroy-Medium.woff),
+     url(./font/medium/Gilroy-Medium.woff2);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1000px; /* например, максимальная ширина контейнера */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 391px) {
+    .skills__programs{
+        justify-content: center;
+    }
+    .footer__button{
+        width: 100%
+    }
+    .head__img{
+        width: 100%
+    }
+
+    .head__title{
+        display: none;
+    }
+
+    .head__hr{
+        display: none;
+    }
+
+    .head__burger{
+        display: flex;
+        position: absolute;
+        right: 17px;
+        top:21px;
+        padding: 0;
+    }
+
+    .burger__line{
+        display: flex;
+    }
+
+    .head__h1{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 37px;
+    }
+
+    .head__H1{
+        margin-bottom: 23px;
+    }
+}
+

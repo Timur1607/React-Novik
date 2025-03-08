@@ -36,10 +36,11 @@ export default function header(){
                         <h1 className="head__autor">Denis Novik</h1>
                         <p className="head__city">UX | UI designer<br />24 years old, Minsk</p>
                     </div>
-                    <picture>
+                    {/* <picture>
                         <source srcSet="src/img/Denis.webp" media="(max-width: 391px)" />
                         <img  className="head__img" src={NovikPicture} alt="Денис Новик" />
-                    </picture>
+                    </picture> */}
+                    <img  className="head__img" src={NovikPicture} alt="Денис Новик!" />
                     {/* <!-- <img class="head__img" src="./img/Denis.svg" alt="Denis Novik">   --> */}
                 </div>
             </section>

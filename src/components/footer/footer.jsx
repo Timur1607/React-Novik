@@ -1,5 +1,9 @@
 import './footer.css'
 import Button from '../button'
+import LinkedIn from '../../img/LinkedIn.svg'
+import Instagram from '../../img/instagram.svg'
+import Behance from '../../img/behance.svg'
+import Dribble from '../../img/Dribble.svg'
 export default function Footer(){
     return(
         <>
@@ -10,10 +14,10 @@ export default function Footer(){
                         <p className="footer__text">Want to know more or just chat? <br/>You are welcome!</p>
                         <Button text='Send message'/>
                         <div className="footer__img">
-                            <img className="" src="src/img/LinkedIn.svg" alt="LinkedIn"/>
-                            <img className="" src="src/img/instagram.svg" alt="Instagram"/>
-                            <img className="" src="src/img/behance.svg" alt="Behance"/>
-                            <img className="" src="src/img/Dribble.svg" alt="Dribble"/>
+                            <img className="" src={LinkedIn} alt="LinkedIn"/>
+                            <img className="" src={Instagram} alt="Instagram"/>
+                            <img className="" src={Behance} alt="Behance"/>
+                            <img className="" src={Dribble} alt="Dribble"/>
                         </div>
                         <p className="footer__text__last">Like me on<br/> LinkedIn, Instagram, Behance, Dribble</p>
                     </div>
